@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Istos</title>
+    <!-- Main Template CSS File -->
+    <link rel="stylesheet" href="css/leon.css" />
+    <!-- Render All Elements Normally -->
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&#038;display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Start Header -->
+    <div class="header">
+      <div class="container">
+        <img
+          src="data:image/png;base64,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"
+        />
+        <div class="links">
+          <span class="icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+          <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- End Header -->
+    <!-- Start Landing Section -->
+    <div class="landing">
+      <div class="intro-text">
+        <h1>Hello There</h1>
+        <p>We are Istos - Super Creative & Minimal Agency Web Template</p>
+      </div>
+    </div>
+    <!-- End Landing Section -->
+    <!-- Start Features -->
+    <div class="features">
+      <div class="container">
+        <div class="feat">
+          <i class="fas fa-magic fa-3x"></i>
+          <h3>Tell Us Your Idea</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut lab
+          </p>
+        </div>
+        <div class="feat">
+          <i class="far fa-gem fa-3x"></i>
+          <h3>We Will Do All The Work</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut lab
+          </p>
+        </div>
+        <div class="feat">
+          <i class="fas fa-globe-asia fa-3x"></i>
+          <h3>Your Product is Worldwide</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut lab
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- End Features -->
+    <!-- Start Services -->
+    <div class="services" id="services">
+      <div class="container">
+        <h2 class="special-heading">ㅤ</h2>
+        <div class="services-content">
+          <div class="col">
+            <!-- Start Service -->
+            <div class="srv">
+              <i class="fas fa-palette fa-2x"></i>
+              <div class="text">
+                <h3>Graphic Design</h3>
+                <p>
+                  Graphic design is the process of visual communication and
+                  problem-solving using one or more of typography, photography
+                  and illustration.
+                </p>
+              </div>
+            </div>
+            <div class="srv">
+              <i class="fab fa-sketch fa-2x"></i>
+              <div class="text">
+                <h3>UI & UX</h3>
+                <p>
+                  Process of enhancing user satisfaction with a product by
+                  improving the usability, accessibility, and pleasure provided
+                  in the interaction.
+                </p>
+              </div>
+            </div>
+            <!-- End Service -->
+          </div>
+          <div class="col">
+            <!-- Start Services -->
+            <div class="srv">
+              <i class="fas fa-vector-square fa-2x"></i>
+              <div class="text">
+                <h3>Web Design</h3>
+                <p>
+                  Web design encompasses many different skills and disciplines
+                  in the production and maintenance of websites.
+                </p>
+              </div>
+            </div>
+            <div class="srv">
+              <i class="fas fa-pencil-ruler fa-2x"></i>
+              <div class="text">
+                <h3>Web Development</h3>
+                <p>
+                  Web development is a broad term for the work involved in
+                  developing a web site for the Internet or an intranet.
+                </p>
+              </div>
+            </div>
+            <!-- End Services -->
+          </div>
+          <div class="col">
+            <div class="image image-column">
+              <img src="images/services.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Services -->
+    <!-- Start Portfolio -->
+    <div class="portfolio" id="portfolio">
+      <div class="container">
+        <h2 class="special-heading">Portfolio</h2>
+        <div class="portfolio-content">
+          <div class="card">
+            <img src="images/portfolio-1.jpg" alt="" />
+            <div class="info">
+              <h3>Project Here</h3>
+              <p>
+                My creative ability is very difficult to measure because it can
+                manifest in so many surprising and.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/portfolio-2.jpg" alt="" />
+            <div class="info">
+              <h3>Project Here</h3>
+              <p>
+                My creative ability is very difficult to measure because it can
+                manifest in so many surprising and.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/portfolio-3.jpg" alt="" />
+            <div class="info">
+              <h3>Project Here</h3>
+              <p>
+                My creative ability is very difficult to measure because it can
+                manifest in so many surprising and.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Portfolio -->
+    <!-- Start About -->
+    <div class="about" id="about">
+      <div class="container">
+        <h2 class="special-heading">About</h2>
+        <div class="about-content">
+          <div class="image">
+            <img src="images/about.jpg" alt="" />
+          </div>
+          <div class="text">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+              nemo neque voluptate tempora velit cum non, fuga vitae architecto
+              delectus sed maxime rerum impedit aliquam obcaecati, aut excepturi
+              iusto laudantium!
+            </p>
+            <hr />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
+              sapiente. Velit iure exercitationem dolores nesciunt dolore. Eum
+              officiis dolorum hic voluptate quaerat minima, similique inventore
+              esse, alias, sed quo officia?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End About -->
+    <!-- Start Contact -->
+    <div class="contact">
+      <div class="container">
+        <h2 class="special-heading">Contact</h2>
+        <div class="info">
+          <p class="label">Feel free to drop us a line at:</p>
+          <a href="mailto:leonagency@mail.com?subject=Contact" class="link"
+            >istosagency@mail.com</a
+          >
+          <div class="social" id="contact">
+            Find Us On Media Platforms
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-discord"></i>
+            <i class="fab fa-twitter"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">&copy; 2022 <span>Istos</span> All Right Reserved</div>
+  </body>
+</html>
